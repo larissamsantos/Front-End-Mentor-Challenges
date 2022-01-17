@@ -1,0 +1,19 @@
+body {
+    background: rgb(255, 231, 255);
+}
+
+.challenges-list {
+    display: flex;
+    margin: 100px 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.challenges-list li {
+    padding: 10px;
+    list-style: none;
+    height: 100px;
+    width: 320px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}

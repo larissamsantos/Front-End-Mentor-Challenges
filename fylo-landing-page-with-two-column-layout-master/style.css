@@ -1,0 +1,29 @@
+h1, h2, button {
+    font-family: Raleway, sans-serif;;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.pageHeader {
+    display:flex;
+    justify-content: space-between;
+    font-family: Raleway, sans-serif;
+    padding: 20px 50px 20px 50px;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: auto;
+    height: 30px;
+}
+.pageNavigator {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+.navigatorItem {
+    padding: 0 20px 0 20px;
+}

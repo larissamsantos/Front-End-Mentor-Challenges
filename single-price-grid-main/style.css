@@ -1,0 +1,127 @@
+body {
+	font-family: 'Karla', sans-serif ;
+	background: hsl(204, 43%, 93%);
+}
+
+.join-community, .subscription, .why-us {
+	padding: 20px 0 30px 50px;
+	overflow-x: hidden;  
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	}
+
+.join-community {
+	margin: 0 auto;
+	width: 700px;
+	display: block;
+	background: white;
+	border-radius: 5px 5px 0 0;
+	margin-bottom: -4px;
+}
+
+.join-community h1 {
+	color: hsl(179, 62%, 43%);
+}
+
+.join-community h2 {
+	font-weight: bold;
+	color: hsl(71, 73%, 54%);
+	font-size: 16px;
+}
+
+.join-community p {
+	color: hsl(218, 22%, 67%);
+}
+
+.subscription {
+	width: 350px;
+	display: inline-block;
+	vertical-align: top;
+	background: hsl(179, 62%, 43%);
+	border-radius: 0 0 0 5px;
+	text-align: left;
+
+}
+
+.subscription h2 {
+	color: white;
+}
+
+.subscription p {
+	color: hsl(204, 43%, 93%);
+}
+
+.price {
+	font-size: 30px;
+	color: white;
+	width: 25%;
+	display: inline-block;
+}
+
+.price-time {
+	width: 50%;
+	display: inline-block;
+	vertical-align: 25%;
+	color: hsl(204, 43%, 93%)
+}
+
+.sign-up {
+	width: 85%;
+	border: none;
+	border-radius: 5px;
+  	color: white;
+  	font-weight: bold;
+  	background: hsl(71, 73%, 54%);
+  	padding: 18px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+
+}
+
+.why-us {
+	width: 350px;
+	display: inline-block;
+	background: hsl(179, 62%, 43%, 70%);
+	border-radius: 0 0 5px 0;
+	text-align: left;
+}
+
+.why-us h2 {
+	color: white;
+}
+
+.why-us ul {
+	color: hsl(204, 43%, 93%);
+	list-style: none;
+	padding: 0;
+}
+
+.bottom-boxes:not(p){
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.join-community {
+		width: 300px;
+		padding: 20px;
+	}
+	.subscription {
+		width: 300px;
+		display: block;
+		padding: 20px;
+		border-radius: 0 0 0 0;
+		margin: 0 auto;
+	}
+	.why-us {
+		width: 300px;
+		display: block;
+		padding: 20px;
+		border-radius: 0 0 5px 5px;
+		margin: 0 auto;
+	}
+}

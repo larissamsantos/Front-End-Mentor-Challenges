@@ -1,0 +1,146 @@
+
+.cars {
+	width: 100%;
+	margin: 0;
+	padding: 50px;
+	overflow-x: hidden;  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+.cars li {
+	width: 200px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: center; 
+	padding: 30px;
+	margin-right: -2px;
+}
+
+.cars h1 {
+	color: hsl(0, 0%, 95%);
+	padding: 15px 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.cars p {
+	color: hsl(0, 0%, 100%);
+	font-size: 10px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.sedans {
+	background: hsl(31, 77%, 52%);
+	border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+	background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background: hsl(179, 100%, 13%);
+	border-radius: 0 10px 10px 0;
+}
+
+.sedans-learn-more {
+	width: 60%;
+	margin: 100px 0 0 0;
+	padding:  9px 7px;
+	background: hsl(0, 0%, 95%);
+	color: hsl(31, 77%, 52%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.sedans-learn-more:hover {
+	border: solid;
+	border-width: 1px;
+	outline-color: hsl(0, 0%, 95%);
+	background: hsl(31, 77%, 52%);
+	color: hsl(0, 0%, 95%);
+}
+
+.suvs-learn-more {
+	width: 60%;
+	margin: 100px 0 0 0;
+	padding:  9px 7px;
+	background: hsl(0, 0%, 95%);
+	color: hsl(184, 100%, 22%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.suvs-learn-more:hover {
+	border: solid;
+	border-width: 1px;
+	border-color: hsl(0, 0%, 95%);
+	background: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+}
+
+.luxury-learn-more {
+	width: 60%;
+	margin: 100px 0 0 0;
+	padding:  9px 7px;
+	background: hsl(0, 0%, 95%);
+	color: hsl(179, 100%, 13%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.luxury-learn-more:hover {
+	border: solid;
+	border-width: 1px;
+	border-color: hsl(0, 0%, 95%);
+	background: hsl(179, 100%, 13%);
+	color: hsl(0, 0%, 95%);
+}
+
+
+.attribution {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 50px;
+	overflow-x: hidden
+}
+
+@media screen and (max-width: 720px ) {
+	.cars {
+		width: 100%;
+    flex-direction: column;
+	}
+	.sedans {
+		border-radius: 10px 10px 0 0;
+	}
+	.luxury {
+		border-radius: 0 0 10px 10px;
+	}	
+}
